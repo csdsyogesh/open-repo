@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+
+
+nav{
+  background-color: black;
+  display:flex;
+  padding: 1rem;
+  justify-content: center;
+  height: 30px;
+}
+Link{
+  padding: 200px;
+}
+nav a{
+  color: azure;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+nav a:hover{
+  background-color: coral;
+
+}
+nav a.active{
+  background-color: aqua;
+}
+div{
+  padding: 2rem;
+  text-align: center;
+}
